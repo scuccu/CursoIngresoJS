@@ -1,9 +1,14 @@
 
 function Mostrar()
-
 {
-
+	var lado;
 	var base;
+
 	base=document.getElementById('laBase').value;
-	alert("El perimetro es:"+base*4);
+
+	base=parseInt(base);
+	lado=parseInt(lado);
+
+	base=lado*3;
+	alert("El perimetro del triángulo es de "+base);
 }
