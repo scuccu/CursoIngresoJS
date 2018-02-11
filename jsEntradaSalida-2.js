@@ -3,11 +3,7 @@ y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
 	var nombre;
-    nombre=prompt("ingrese nombre","Natalia Natalia");
-    alert("su nombre es: "+nombre);
-
-	//var person = prompt("Please enter your name", "Harry Potter");
-
-	
+	nombre=prompt("Ingrese su nombre");
+	alert("Su nombre es "+nombre);
 }
 

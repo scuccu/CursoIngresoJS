@@ -4,18 +4,16 @@ Mostar el resulto por medio de "ALERT"*/
 function sumar()
 {
 	var numeroUno;
-	var numeroDos,
+	var numeroDos;
 	var resultado;
 
 	numeroUno=document.getElementById('numeroUno').value;
 	numeroDos=document.getElementById('numeroDos').value;
 
-	numeroUno=parseInt("numeroUno");
-	numeroDos=parseInt("numeroDos");
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
 
 	resultado=numeroUno+numeroDos;
-
-	Alert("El resultado es"+resultado);
-
+	alert("El resultado es: "+resultado);
 }
 
