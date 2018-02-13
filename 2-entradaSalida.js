@@ -1,24 +1,23 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'MOSTRAR'.
 function Mostrar()
-{
-	alert("Funciona 2-EntradaSalida");
-	
-}
+
 
 {
+
 	var importe;
-	var importefinal;
-	var descuento;
+	var iva;
+	var importefinal
 
-	importe=document.getElementById('importe').value;
-	importe=parseInt(importe);
 	
+	importe=prompt("Su importe es de ");
 
-	decuento=importe*0.25;
+	importe=parseInt(importe);
 
-	importefinal=importe-descuento;
-
+	iva=importe*0.21;
+	importefinal=importe+iva
 
 	document.getElementById('importe').value=importefinal;
+
+
 }
 
