@@ -17,6 +17,7 @@ function CalcularPrecio ()
  	var importeConD;
  	var impuestos;
  	var importeFinal;
+ 	var marca;
 
  	cantidad=document.getElementById('Cantidad').value;
  	precio=35;
