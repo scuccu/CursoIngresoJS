@@ -1,15 +1,18 @@
 function Mostrar()
 {
-	var importe;
-	var importeFinal;
-	var iva;
+  	var importe;
+	var importefinal;
+	var descuento;
 
-	importe=prompt("importe Final");
-	importe= parseInt(importe);
+	importe=document.getElementById('importeFinal').value;
+	importe=parseInt(importe);
 
-	iva=importe*0.21;
-	importefinal=importe+iva;
+	descuento=importe*0.25;
+
+	importefinal=importe-descuento;
+
 
 	document.getElementById('importeFinal').value=importefinal;
-
 }
+
+
