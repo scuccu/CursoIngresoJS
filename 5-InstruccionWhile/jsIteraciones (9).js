@@ -1,3 +1,6 @@
+
+//HAY QUE ARREGLARLO!
+
 function Mostrar()
 {
 
